@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  .header {
+    margin-left: 20px;
+  }
+
+  .header-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: grey;
+    background-image: url(/storage/emulated/0/MyBlog/IMG_20240531_071231.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .nav {
+    background: black;
+    color: papayawhip;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    height: 7em;
+    width: 100dvw;
+    top: 0;
+    display: flex;
+  }
+  
+ .para {
+    margin: 2rem;
+  }
+  
+  main {
+    margin-top: 10em;
+    margin-botton: 25em;
+  }
+  
+  .footer {
+    background: #000;
+    position: fixed;
+    color: papayawhip;
+    width: 100vw;
+    bottom: 0;
+    height: 2em; 
+    text-align: center;
+  }
+  
+
+.topic {
+  margin: 12px;
+  padding: 1em;
+  box-shadow: 2px 0 0 black;
+  display: flex;
+  border-left: 1em solid red;
+  align-items: center;
+}
+
+.topic-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+@media screen and (min-width: 700px) {
+  
+    .nav {
+      height: 100dvh;
+    width: 40dvw;
+    top: 0;
+    display: flex;
+      display-wrap: wrap;
+    }
+  
+  main {
+    margin-left: 40dvw;
+    margin-top: 3em;
+  }
+  
+  footer {
+    display: none;
+  }
+  
+  
+  
+}
+
