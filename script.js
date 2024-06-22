@@ -1,18 +1,18 @@
 list = [
 {
     topic: "Arena breakout",
-    image: "/storage/emulated/0/Pictures/Screenshots/Screenshot_20240617-123351.png",
+    image: "Screenshot_20240617-123351.png",
     detail: "This is a FPS game...",
     link: "",
     id: 0
 },{
     topic: "Born winner",
-    image: "/storage/emulated/0/Pictures/Wisdom_Quotes/20240616_063216.jpg",
+    image: "20240602_061109.jpg",
     detail: "How I started programming...",
     link: "Born-winner.html"
 },{
     topic: "Web developer",
-    image: "/storage/emulated/0/DCIM/Camera/124e92cfb3545b185863bf05464f61ad~2.png",
+    image: "124e92cfb3545b185863bf05464f61ad~2.png",
     detail: "I enjoy exploring new technologies...",
     link: "web-developer.html"
 }]
