@@ -3,7 +3,7 @@ list = [
     topic: "Arena breakout",
     image: "Screenshot_20240617-123351.png",
     detail: "This is a FPS game...",
-    link: "arena.html",
+    link: "Arena.html",
     id: 0
 },{
     topic: "Born winner",
